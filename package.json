@@ -1,5 +1,5 @@
 {
-  "name": "atm-project",
+  "name": "new-cli-atm-project",
   "version": "1.0.0",
   "description": "It is a CLI based atm project in which we used typescript for code.",
   "main": "index.js",
