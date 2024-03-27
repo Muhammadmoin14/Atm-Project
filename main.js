@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 let myPin = 5234;
 let userBalance = 10000;
-console.log(userBalance);
+console.log("Your Current Balance is ", userBalance);
 let Pin = await inquirer.prompt([{
         name: "userPin",
         type: "number",

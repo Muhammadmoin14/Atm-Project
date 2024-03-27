@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 let myPin= 5234 ;
 let userBalance = 10000;
-console.log(userBalance);
+console.log("Your Current Balance is ", userBalance);
 let Pin = await inquirer.prompt([{
     name: "userPin",
     type: "number",
@@ -91,24 +91,14 @@ if (myPin == Pin.userPin)
                         console.log(userBalance - 10000);
                         
                     }
-
                     }
                     }
-
                     }
                 }
             }
-
-
     }
-
-            
-
     }
-
     }
-    
-
 else 
 {
     console.log("Your pin is incorrect");
